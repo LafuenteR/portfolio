@@ -84,7 +84,8 @@
 		 	left: 50%;
 		 	transform: translate(-50%, -50%);
 		 }
-		 .work {
+		 .work, 
+		.work1 {
     		position: relative;
 		}
 		.text{
@@ -102,6 +103,11 @@
 		.work:hover .thumbnail {
   			opacity: 0.5;
 		}
+		
+		.work1:hover .thumbnail {
+  			opacity: 0.5;
+		}
+		
 		.active{
 			margin: auto;
 			text-align: center;
@@ -109,7 +115,10 @@
 		.work:hover .middle {
   			opacity: 1;
 		}
-		.work{
+		.work1:hover .middle {
+  			opacity: 1;
+		}
+		.work, .work1{
 			padding: 0;
 		}
 		.hrclass{
@@ -399,7 +408,21 @@
 			 </a>
 		 </div>
 		
-		<div class="col-md-6 col-sm-12 col-xs-12 work">
+		<div class="col-md-6 col-sm-12 col-xs-12 work1">
+			<a href="https://bgbridalgallery.com/jp" target="_blank">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<img src="bgjp.png" class="thumbnail" style="width:100%;">
+					</div>
+					<div class="panel-footer">
+					<p><strong>BG Bridal Gallery JP</strong> is a wedding site</p>
+						<p>Created using Laravel</p>
+					</div>
+				</div>
+			 </a>
+		 </div>
+		
+		<div class="col-md-6 col-sm-12 col-xs-12 work1">
 			<a href="https://gamenewsninja.com/" target="_blank">
 				<div class="panel panel-default">
 					<div class="panel-body">
@@ -413,7 +436,7 @@
 			 </a>
 		 </div>
 
-		<div class="col-md-6 col-sm-12 col-xs-12 work">
+		<div class="col-md-6 col-sm-12 col-xs-12 work1">
 			<a href="https://chamoji.com" target="_blank">
 				<div class="panel panel-default">
 					<div class="panel-body">
@@ -427,19 +450,6 @@
 			 </a>
 		 </div>
 		
-		<div class="col-md-6 col-sm-12 col-xs-12 work">
-			<a href="https://bgbridalgallery.com/jp" target="_blank">
-				<div class="panel panel-default">
-					<div class="panel-body">
-						<img src="bgjp.png" class="thumbnail" style="width:100%;">
-					</div>
-					<div class="panel-footer">
-					<p><strong>BG Bridal Gallery JP</strong> is a wedding site</p>
-						<p>Created using Laravel</p>
-					</div>
-				</div>
-			 </a>
-		 </div>
 	</div>
 		
 	<div id="contacts" class="container-fluid col-md-12 col-sm-12 panel panel-success">
